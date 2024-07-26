@@ -1,0 +1,22 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("COLOR SWITCH RACE FREE UGC", "DarkTheme")
+local Tab = Window:NewTab("SCRIPT")
+local Section = Tab:NewSection("INF ICE")
+Section:NewButton("AUTO GET ICE", "ButtonInfo", function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(91.324028, 1.61174023, 278.100983, 1, 0, 0, 0, 1, 0, 0, 0, 1)    print("Clicked")
+end)
+local Section = Tab:NewSection("NOTE: RACE END 60S TO USE AUTO WIN")
+Section:NewButton("AUTO WIN", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(516.014954, 26.4888268, -21.6082516, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+    print("Clicked")
+end)local Tab = Window:NewTab("Credits 🤓")
+local Section = Tab:NewSection("👇👇👇👇")
+Section:NewButton("White-Scripter", "ButtonInfo", function()
+
+    print("Clicked")
+end)
+Section:NewButton("Subscribe", "ButtonInfo", function()
+
+    print("Clicked")
+end)
